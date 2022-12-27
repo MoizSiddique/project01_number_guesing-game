@@ -7,13 +7,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "moiz_number-guessing-game": "dist/app.js"
+  },
   "author": "Moiz Siddique",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
     "inquirer": "^9.1.4"
   },
   "devDependencies": {
+    "@types/chalk-animation": "^1.6.1",
     "@types/inquirer": "^9.0.3"
   }
 }
